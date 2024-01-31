@@ -3,6 +3,7 @@ import * as React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 
 import DSSocialProfile from "./components/DSSocialProfile";
+import COMPOSER from "./components/COMPOSER";
 import ChiTitRoom from "./components/ChiTitRoom";
 import DSNhn from "./components/DSNhn";
 import Calendar from "./components/Calendar";

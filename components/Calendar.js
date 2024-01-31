@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Text, StyleSheet, Image, View } from "react-native";
-import { FontFamily, Color, FontSize, Padding } from "../GlobalStyles";
+import { FontFamily, Color, FontSize, Padding, Border } from "../GlobalStyles";
 
 const Calendar = () => {
   return (
@@ -190,7 +190,7 @@ const styles = StyleSheet.create({
   dayTypo: {
     color: Color.textSecondary,
     lineHeight: 18,
-    fontSize: FontSize.defaultBoldFootnote_size,
+    fontSize: FontSize.footnoteRegular_size,
     left: "50%",
     top: "50%",
     marginTop: -9,
@@ -204,7 +204,7 @@ const styles = StyleSheet.create({
     marginLeft: -15.5,
     color: Color.textSecondary,
     lineHeight: 18,
-    fontSize: FontSize.defaultBoldFootnote_size,
+    fontSize: FontSize.footnoteRegular_size,
     left: "50%",
     top: "50%",
     marginTop: -9,
@@ -228,7 +228,7 @@ const styles = StyleSheet.create({
   },
   dateClr: {
     color: Color.textPrimary,
-    fontFamily: FontFamily.text14Regular,
+    fontFamily: FontFamily.calloutRegular,
     display: "flex",
   },
   datePosition: {
@@ -281,7 +281,7 @@ const styles = StyleSheet.create({
   },
   monthPicker: {
     height: 44,
-    paddingVertical: 7,
+    paddingVertical: Padding.p_6xs,
     paddingHorizontal: 0,
     justifyContent: "space-between",
     alignItems: "center",
@@ -322,7 +322,7 @@ const styles = StyleSheet.create({
   date: {
     display: "none",
     color: Color.defaultSystemRedLight,
-    fontFamily: FontFamily.defaultRegularTitle3,
+    fontFamily: FontFamily.defaultRegularTitle2,
   },
   date2: {
     display: "flex",
@@ -341,7 +341,7 @@ const styles = StyleSheet.create({
   date5: {
     display: "flex",
     color: Color.textPrimary,
-    fontFamily: FontFamily.text14Regular,
+    fontFamily: FontFamily.calloutRegular,
   },
   date8: {
     color: Color.textWhite,
@@ -350,7 +350,7 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
   digit8: {
-    borderRadius: 100,
+    borderRadius: Border.br_81xl,
     backgroundColor: Color.brandPrimary,
   },
   calendarDayrow2: {
@@ -359,7 +359,7 @@ const styles = StyleSheet.create({
   date33: {
     display: "none",
     color: Color.defaultSystemRedLight,
-    fontFamily: FontFamily.defaultRegularTitle3,
+    fontFamily: FontFamily.defaultRegularTitle2,
   },
   calendarDayrowGroup: {
     marginTop: 10,

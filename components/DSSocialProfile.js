@@ -152,7 +152,7 @@ const styles = StyleSheet.create({
   profileBorder: {
     width: 343,
     borderWidth: 1,
-    borderColor: Color.colorGainsboro,
+    borderColor: Color.gray4D9D9D9,
     borderStyle: "solid",
     overflow: "hidden",
     backgroundColor: Color.textWhite,
@@ -197,7 +197,7 @@ const styles = StyleSheet.create({
     height: 32,
   },
   lMinhTr: {
-    fontSize: FontSize.text16Medium_size,
+    fontSize: FontSize.calloutRegular_size,
     lineHeight: 24,
     fontWeight: "500",
     fontFamily: FontFamily.text16Medium,
@@ -217,7 +217,7 @@ const styles = StyleSheet.create({
   psid: {
     display: "flex",
     width: 100,
-    fontFamily: FontFamily.text14Regular,
+    fontFamily: FontFamily.calloutRegular,
     textAlign: "left",
     alignItems: "center",
   },
@@ -242,7 +242,7 @@ const styles = StyleSheet.create({
   },
   facebookcomfptTelecom1234: {
     color: Color.brandPrimary,
-    fontFamily: FontFamily.text14Regular,
+    fontFamily: FontFamily.calloutRegular,
     alignSelf: "stretch",
     overflow: "hidden",
   },
@@ -262,7 +262,7 @@ const styles = StyleSheet.create({
   },
   k: {
     textAlign: "center",
-    fontFamily: FontFamily.text14Regular,
+    fontFamily: FontFamily.calloutRegular,
   },
   avt: {
     height: "100%",

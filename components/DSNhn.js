@@ -11,7 +11,7 @@ const DSNhn = () => {
           <Image
             style={styles.closeIcon}
             resizeMode="cover"
-            source={require("../assets/23-close.png")}
+            source={require("../assets/23-close1.png")}
           />
         </View>
         <View style={[styles.tag31, styles.tagSpaceBlock]}>
@@ -19,7 +19,7 @@ const DSNhn = () => {
           <Image
             style={styles.closeIcon}
             resizeMode="cover"
-            source={require("../assets/23-close.png")}
+            source={require("../assets/23-close1.png")}
           />
         </View>
         <View style={[styles.tag32, styles.tagSpaceBlock]}>
@@ -27,7 +27,7 @@ const DSNhn = () => {
           <Image
             style={styles.closeIcon}
             resizeMode="cover"
-            source={require("../assets/23-close.png")}
+            source={require("../assets/23-close1.png")}
           />
         </View>
         <View style={[styles.tag33, styles.tagSpaceBlock]}>
@@ -35,7 +35,7 @@ const DSNhn = () => {
           <Image
             style={styles.closeIcon}
             resizeMode="cover"
-            source={require("../assets/23-close.png")}
+            source={require("../assets/23-close1.png")}
           />
         </View>
         <View style={[styles.tag34, styles.tagSpaceBlock]}>
@@ -43,7 +43,7 @@ const DSNhn = () => {
           <Image
             style={styles.closeIcon}
             resizeMode="cover"
-            source={require("../assets/23-close.png")}
+            source={require("../assets/23-close1.png")}
           />
         </View>
         <View style={[styles.tag35, styles.tagSpaceBlock]}>
@@ -51,7 +51,7 @@ const DSNhn = () => {
           <Image
             style={styles.closeIcon}
             resizeMode="cover"
-            source={require("../assets/23-close.png")}
+            source={require("../assets/23-close1.png")}
           />
         </View>
         <View style={[styles.tag36, styles.tagSpaceBlock]}>
@@ -59,7 +59,7 @@ const DSNhn = () => {
           <Image
             style={styles.closeIcon}
             resizeMode="cover"
-            source={require("../assets/23-close.png")}
+            source={require("../assets/23-close1.png")}
           />
         </View>
       </View>
@@ -67,7 +67,7 @@ const DSNhn = () => {
         <Image
           style={styles.iconLayout}
           resizeMode="cover"
-          source={require("../assets/1-search.png")}
+          source={require("../assets/1-search1.png")}
         />
         <View style={styles.textWapper}>
           <Text style={styles.textTypo}>
@@ -79,7 +79,7 @@ const DSNhn = () => {
         <Image
           style={[styles.validateIcon, styles.iconLayout]}
           resizeMode="cover"
-          source={require("../assets/validate.png")}
+          source={require("../assets/validate2.png")}
         />
       </View>
       <View style={[styles.dropdownlist, styles.fieldinputSpaceBlock]}>
@@ -204,7 +204,7 @@ const styles = StyleSheet.create({
   },
   textTypo: {
     textAlign: "left",
-    fontFamily: FontFamily.text14Regular,
+    fontFamily: FontFamily.calloutRegular,
     lineHeight: 20,
     fontSize: FontSize.text14Regular_size,
   },
