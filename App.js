@@ -8,6 +8,9 @@ import DSNhn from "./components/DSNhn";
 import Calendar from "./components/Calendar";
 import COMPOSER from "./components/COMPOSER";
 import DSNHng from "./screens/DSNHng";
+import EmptyState from "./screens/EmptyState";
+import ActionSheet from "./screens/ActionSheet";
+import DSNhm from "./screens/DSNhm";
 
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { View, Text, Pressable, TouchableOpacity } from "react-native";
@@ -23,6 +26,21 @@ const App = () => {
             <Stack.Screen
               name="DSNHng"
               component={DSNHng}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="EmptyState"
+              component={EmptyState}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="ActionSheet"
+              component={ActionSheet}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
+              name="DSNhm"
+              component={DSNhm}
               options={{ headerShown: false }}
             />
           </Stack.Navigator>

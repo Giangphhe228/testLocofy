@@ -204,9 +204,9 @@ const styles = StyleSheet.create({
   },
   textTypo: {
     textAlign: "left",
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
     lineHeight: 20,
-    fontSize: FontSize.bodyRegular14_size,
+    fontSize: FontSize.text14SemiBold_size,
   },
   fieldinputSpaceBlock: {
     marginTop: 16,

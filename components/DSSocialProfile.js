@@ -159,7 +159,7 @@ const styles = StyleSheet.create({
   },
   kLayout: {
     lineHeight: 20,
-    fontSize: FontSize.bodyRegular14_size,
+    fontSize: FontSize.text14SemiBold_size,
     color: Color.textPrimary,
   },
   textTypo: {
@@ -174,7 +174,7 @@ const styles = StyleSheet.create({
   xemThmTypo: {
     textDecoration: "underline",
     lineHeight: 20,
-    fontSize: FontSize.bodyRegular14_size,
+    fontSize: FontSize.text14SemiBold_size,
     textAlign: "left",
   },
   avtPosition: {
@@ -217,7 +217,7 @@ const styles = StyleSheet.create({
   psid: {
     display: "flex",
     width: 100,
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
     textAlign: "left",
     alignItems: "center",
   },
@@ -225,7 +225,7 @@ const styles = StyleSheet.create({
     marginLeft: 12,
     flex: 1,
     lineHeight: 20,
-    fontSize: FontSize.bodyRegular14_size,
+    fontSize: FontSize.text14SemiBold_size,
     color: Color.textPrimary,
     textAlign: "left",
   },
@@ -235,14 +235,14 @@ const styles = StyleSheet.create({
   },
   fptTelecom: {
     lineHeight: 20,
-    fontSize: FontSize.bodyRegular14_size,
+    fontSize: FontSize.text14SemiBold_size,
     color: Color.textPrimary,
     textAlign: "left",
     alignSelf: "stretch",
   },
   facebookcomfptTelecom1234: {
     color: Color.brandPrimary,
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
     alignSelf: "stretch",
     overflow: "hidden",
   },
@@ -262,7 +262,7 @@ const styles = StyleSheet.create({
   },
   k: {
     textAlign: "center",
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
   },
   avt: {
     height: "100%",
@@ -296,7 +296,7 @@ const styles = StyleSheet.create({
   },
   hoChiMinh: {
     lineHeight: 20,
-    fontSize: FontSize.bodyRegular14_size,
+    fontSize: FontSize.text14SemiBold_size,
     color: Color.textPrimary,
     textAlign: "left",
   },
@@ -315,7 +315,7 @@ const styles = StyleSheet.create({
   location: {
     marginLeft: 12,
     lineHeight: 20,
-    fontSize: FontSize.bodyRegular14_size,
+    fontSize: FontSize.text14SemiBold_size,
     color: Color.textPrimary,
     textAlign: "left",
   },

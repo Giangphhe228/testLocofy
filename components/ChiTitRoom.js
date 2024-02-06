@@ -385,7 +385,7 @@ const styles = StyleSheet.create({
   },
   labelTypo: {
     lineHeight: 20,
-    fontSize: FontSize.subheadlineRegular_size,
+    fontSize: FontSize.subheadlineSemiBold_size,
     marginLeft: 8,
     textAlign: "center",
     letterSpacing: 0,
@@ -413,7 +413,7 @@ const styles = StyleSheet.create({
     letterSpacing: 0,
   },
   textTypo: {
-    fontSize: FontSize.bodyRegular14_size,
+    fontSize: FontSize.text14SemiBold_size,
     lineHeight: 20,
   },
   ghiChSpaceBlock: {
@@ -433,7 +433,7 @@ const styles = StyleSheet.create({
     lineHeight: 22,
     fontSize: FontSize.defaultBoldBody_size,
     marginLeft: 16,
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
     letterSpacing: 0,
   },
   titleFlexBox: {
@@ -510,7 +510,7 @@ const styles = StyleSheet.create({
     color: Color.brandPrimary,
   },
   number: {
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
     textAlign: "center",
     color: Color.systemBackgroundLightPrimary,
   },
@@ -531,7 +531,7 @@ const styles = StyleSheet.create({
   },
   label1: {
     color: Color.textPrimary,
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
     marginLeft: 8,
   },
   badge1: {
@@ -587,7 +587,7 @@ const styles = StyleSheet.create({
   },
   angOnline: {
     color: Color.colorMediumseagreen_100,
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
     flex: 1,
     textAlign: "center",
   },
@@ -598,7 +598,7 @@ const styles = StyleSheet.create({
     alignSelf: "stretch",
   },
   label6: {
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
     color: Color.brandPrimary,
     textAlign: "center",
   },
@@ -644,7 +644,7 @@ const styles = StyleSheet.create({
   tinTVn: {
     textAlign: "left",
     color: Color.textPrimary,
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
   },
   text1: {
     color: Color.colorRoyalblue_200,
@@ -673,7 +673,7 @@ const styles = StyleSheet.create({
     marginLeft: 16,
     textAlign: "left",
     color: Color.textPrimary,
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
     flex: 1,
   },
   arrowRightIcon: {
@@ -693,7 +693,7 @@ const styles = StyleSheet.create({
   value: {
     textAlign: "right",
     marginLeft: 16,
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
     color: Color.brandPrimary,
   },
   qunLTinZalo1: {
@@ -702,7 +702,7 @@ const styles = StyleSheet.create({
   text3: {
     color: Color.textPlaceHolder,
     textAlign: "left",
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
     flex: 1,
   },
   fieldtextArea: {
@@ -746,7 +746,7 @@ const styles = StyleSheet.create({
   text4: {
     color: Color.textSecondary,
     textAlign: "left",
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
     marginLeft: 8,
   },
   frameGroup: {
@@ -759,7 +759,7 @@ const styles = StyleSheet.create({
     textAlign: "left",
     marginTop: 8,
     color: Color.textPrimary,
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
     alignSelf: "stretch",
   },
   frameParent: {

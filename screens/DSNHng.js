@@ -376,7 +376,7 @@ const styles = StyleSheet.create({
     width: 20,
   },
   tnHTypo: {
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
     lineHeight: 18,
     fontSize: FontSize.defaultBoldFootnote_size,
     marginLeft: 8,
@@ -429,7 +429,7 @@ const styles = StyleSheet.create({
     borderRadius: Border.br_5xs,
   },
   giDchV: {
-    fontSize: FontSize.bodyRegular14_size,
+    fontSize: FontSize.text14SemiBold_size,
     lineHeight: 20,
     fontWeight: "500",
     fontFamily: FontFamily.text16Medium,

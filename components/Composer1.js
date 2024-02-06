@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     fontSize: FontSize.text16Medium_size,
     letterSpacing: 0,
     lineHeight: 22,
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
     color: Color.textPrimary,
     textAlign: "left",
   },

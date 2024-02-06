@@ -228,7 +228,7 @@ const styles = StyleSheet.create({
   },
   dateClr: {
     color: Color.textPrimary,
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
     display: "flex",
   },
   datePosition: {
@@ -341,7 +341,7 @@ const styles = StyleSheet.create({
   date5: {
     display: "flex",
     color: Color.textPrimary,
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
   },
   date8: {
     color: Color.systemBackgroundLightPrimary,

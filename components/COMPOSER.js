@@ -2270,7 +2270,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
   },
   descriptionTypo: {
-    fontSize: FontSize.bodyRegular14_size,
+    fontSize: FontSize.text14SemiBold_size,
     lineHeight: 20,
   },
   composeSpaceBlock: {
@@ -2456,7 +2456,7 @@ const styles = StyleSheet.create({
     lineHeight: 16,
     fontSize: FontSize.caption1SemiBold_size,
     color: Color.textSecondary,
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
   },
   frameChildLayout2: {
     height: 124,
@@ -2477,7 +2477,7 @@ const styles = StyleSheet.create({
   },
   text9Clr: {
     color: Color.systemBackgroundLightPrimary,
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
     letterSpacing: 0,
   },
   frameChildLayout: {
@@ -2487,7 +2487,7 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   composer1: {
-    fontSize: 80,
+    fontSize: FontSize.size_61xl,
     letterSpacing: 1.4,
     textTransform: "uppercase",
     fontFamily: FontFamily.robotoBold,
@@ -2497,7 +2497,7 @@ const styles = StyleSheet.create({
   },
   nhpTinNhn: {
     color: Color.textSecondary,
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
     fontSize: FontSize.text16Medium_size,
     letterSpacing: 0,
   },
@@ -2535,7 +2535,7 @@ const styles = StyleSheet.create({
     color: Color.brandPrimary,
   },
   niDungTinContainer: {
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
     fontSize: FontSize.text16Medium_size,
     letterSpacing: 0,
   },
@@ -2552,7 +2552,7 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   niDungTinContainer1: {
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
     fontSize: FontSize.text16Medium_size,
     letterSpacing: 0,
     flex: 1,
@@ -2619,7 +2619,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     lineHeight: 20,
     color: Color.textPrimary,
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
     flex: 1,
   },
   helperText: {
@@ -2707,10 +2707,10 @@ const styles = StyleSheet.create({
   label: {
     fontSize: FontSize.defaultBoldBody_size,
     color: Color.textBlack,
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
   },
   illustration: {
-    backgroundColor: Color.neutral4F0F0F0,
+    backgroundColor: Color.neutral4,
     borderRadius: Border.br_11xs,
     left: "0%",
     bottom: "0%",
@@ -3159,7 +3159,7 @@ const styles = StyleSheet.create({
   },
   bnCh: {
     color: Color.textPrimary,
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
   },
   huongnt256: {
     color: Color.textBlack,
@@ -3176,7 +3176,7 @@ const styles = StyleSheet.create({
   },
   bnKhngTh1: {
     color: Color.textBlack,
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
   },
   tiY: {
     textDecoration: "underline",
@@ -3192,7 +3192,7 @@ const styles = StyleSheet.create({
     color: Color.textBlack,
     marginLeft: 12,
     lineHeight: 20,
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
     textAlign: "left",
   },
   questionCircleIcon: {
@@ -3209,7 +3209,7 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   trang: {
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
   },
   trangFptCameraContainer: {
     color: Color.textBlack,
@@ -3234,14 +3234,14 @@ const styles = StyleSheet.create({
   angTrLi: {
     lineHeight: 20,
     color: Color.textPrimary,
-    fontFamily: FontFamily.bodyRegular14,
+    fontFamily: FontFamily.title3Regular,
     textAlign: "left",
   },
   chnhBn: {
     marginLeft: 2,
     color: Color.textBlack,
     lineHeight: 20,
-    fontSize: FontSize.bodyRegular14_size,
+    fontSize: FontSize.text14SemiBold_size,
     textAlign: "left",
   },
   angTrLiParent: {
@@ -3287,7 +3287,7 @@ const styles = StyleSheet.create({
   },
   cameraParent: {
     backgroundColor: Color.backgroundGrayF8F8F8,
-    paddingHorizontal: 34,
+    paddingHorizontal: Padding.p_15xl,
     paddingVertical: Padding.p_21xl,
     alignSelf: "stretch",
     flex: 1,
@@ -3307,7 +3307,7 @@ const styles = StyleSheet.create({
     backgroundColor: Color.colorGray_200,
   },
   number: {
-    fontSize: FontSize.subheadlineRegular_size,
+    fontSize: FontSize.subheadlineSemiBold_size,
     textAlign: "center",
     lineHeight: 20,
   },
@@ -3442,10 +3442,10 @@ const styles = StyleSheet.create({
     marginTop: 80,
   },
   composer: {
-    backgroundColor: "#e2e7ec",
+    backgroundColor: Color.colorGainsboro_100,
     width: 1900,
     height: 2536,
-    padding: 80,
+    padding: Padding.p_61xl,
   },
 });
 
