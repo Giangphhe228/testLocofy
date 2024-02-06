@@ -175,7 +175,7 @@ const Calendar = () => {
 
 const styles = StyleSheet.create({
   monthTypo: {
-    fontFamily: FontFamily.text14SemiBold,
+    fontFamily: FontFamily.title3SemiBold,
     fontWeight: "600",
   },
   arrowIconLayout: {
@@ -190,13 +190,13 @@ const styles = StyleSheet.create({
   dayTypo: {
     color: Color.textSecondary,
     lineHeight: 18,
-    fontSize: FontSize.footnoteRegular_size,
+    fontSize: FontSize.defaultBoldFootnote_size,
     left: "50%",
     top: "50%",
     marginTop: -9,
     position: "absolute",
     textAlign: "center",
-    fontFamily: FontFamily.text14SemiBold,
+    fontFamily: FontFamily.title3SemiBold,
     fontWeight: "600",
     letterSpacing: 0,
   },
@@ -204,12 +204,12 @@ const styles = StyleSheet.create({
     marginLeft: -15.5,
     color: Color.textSecondary,
     lineHeight: 18,
-    fontSize: FontSize.footnoteRegular_size,
+    fontSize: FontSize.defaultBoldFootnote_size,
     left: "50%",
     top: "50%",
     marginTop: -9,
     position: "absolute",
-    fontFamily: FontFamily.text14SemiBold,
+    fontFamily: FontFamily.title3SemiBold,
     fontWeight: "600",
     letterSpacing: 0,
   },
@@ -228,7 +228,7 @@ const styles = StyleSheet.create({
   },
   dateClr: {
     color: Color.textPrimary,
-    fontFamily: FontFamily.calloutRegular,
+    fontFamily: FontFamily.bodyRegular14,
     display: "flex",
   },
   datePosition: {
@@ -262,7 +262,7 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     letterSpacing: 0,
     fontSize: FontSize.title3SemiBold_size,
-    fontFamily: FontFamily.text14SemiBold,
+    fontFamily: FontFamily.title3SemiBold,
     fontWeight: "600",
   },
   arrowRightIcon: {
@@ -322,7 +322,7 @@ const styles = StyleSheet.create({
   date: {
     display: "none",
     color: Color.defaultSystemRedLight,
-    fontFamily: FontFamily.defaultRegularTitle2,
+    fontFamily: FontFamily.defaultRegularTitle3,
   },
   date2: {
     display: "flex",
@@ -341,12 +341,12 @@ const styles = StyleSheet.create({
   date5: {
     display: "flex",
     color: Color.textPrimary,
-    fontFamily: FontFamily.calloutRegular,
+    fontFamily: FontFamily.bodyRegular14,
   },
   date8: {
-    color: Color.textWhite,
+    color: Color.systemBackgroundLightPrimary,
     display: "flex",
-    fontFamily: FontFamily.text14SemiBold,
+    fontFamily: FontFamily.title3SemiBold,
     fontWeight: "600",
   },
   digit8: {
@@ -359,7 +359,7 @@ const styles = StyleSheet.create({
   date33: {
     display: "none",
     color: Color.defaultSystemRedLight,
-    fontFamily: FontFamily.defaultRegularTitle2,
+    fontFamily: FontFamily.defaultRegularTitle3,
   },
   calendarDayrowGroup: {
     marginTop: 10,
@@ -369,7 +369,7 @@ const styles = StyleSheet.create({
   },
   calendar: {
     borderRadius: 13,
-    backgroundColor: Color.textWhite,
+    backgroundColor: Color.systemBackgroundLightPrimary,
     shadowColor: "rgba(0, 0, 0, 0.1)",
     shadowOffset: {
       width: 0,

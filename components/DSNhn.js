@@ -190,7 +190,7 @@ const DSNhn = () => {
 
 const styles = StyleSheet.create({
   dsNhnBg: {
-    backgroundColor: Color.textWhite,
+    backgroundColor: Color.systemBackgroundLightPrimary,
     alignItems: "center",
   },
   tagSpaceBlock: {
@@ -204,9 +204,9 @@ const styles = StyleSheet.create({
   },
   textTypo: {
     textAlign: "left",
-    fontFamily: FontFamily.calloutRegular,
+    fontFamily: FontFamily.bodyRegular14,
     lineHeight: 20,
-    fontSize: FontSize.text14Regular_size,
+    fontSize: FontSize.bodyRegular14_size,
   },
   fieldinputSpaceBlock: {
     marginTop: 16,
@@ -232,7 +232,7 @@ const styles = StyleSheet.create({
     width: 20,
   },
   label: {
-    color: Color.textWhite,
+    color: Color.systemBackgroundLightPrimary,
   },
   closeIcon: {
     width: 12,
@@ -306,7 +306,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     width: 343,
     alignItems: "center",
-    backgroundColor: Color.textWhite,
+    backgroundColor: Color.systemBackgroundLightPrimary,
   },
   illustration: {
     backgroundColor: Color.tagBlue500,

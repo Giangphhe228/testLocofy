@@ -374,7 +374,7 @@ const styles = StyleSheet.create({
     paddingTop: Padding.p_9xs,
     paddingHorizontal: Padding.p_5xs,
     justifyContent: "center",
-    backgroundColor: Color.textWhite,
+    backgroundColor: Color.systemBackgroundLightPrimary,
     flex: 1,
     flexDirection: "row",
     alignItems: "center",
@@ -392,7 +392,7 @@ const styles = StyleSheet.create({
   },
   text4Layout: {
     lineHeight: 16,
-    fontSize: FontSize.caption1Regular_size,
+    fontSize: FontSize.caption1SemiBold_size,
   },
   buttonSpaceBlock: {
     paddingLeft: Padding.p_base,
@@ -408,17 +408,17 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   name1Typo: {
-    fontFamily: FontFamily.text14SemiBold,
+    fontFamily: FontFamily.title3SemiBold,
     fontWeight: "600",
     letterSpacing: 0,
   },
   textTypo: {
-    fontSize: FontSize.text14Regular_size,
+    fontSize: FontSize.bodyRegular14_size,
     lineHeight: 20,
   },
   ghiChSpaceBlock: {
     padding: Padding.p_base,
-    backgroundColor: Color.textWhite,
+    backgroundColor: Color.systemBackgroundLightPrimary,
     alignSelf: "stretch",
   },
   tinSpaceBlock: {
@@ -431,9 +431,9 @@ const styles = StyleSheet.create({
   },
   valueTypo: {
     lineHeight: 22,
-    fontSize: FontSize.headlineRegular_size,
+    fontSize: FontSize.defaultBoldBody_size,
     marginLeft: 16,
-    fontFamily: FontFamily.calloutRegular,
+    fontFamily: FontFamily.bodyRegular14,
     letterSpacing: 0,
   },
   titleFlexBox: {
@@ -456,10 +456,10 @@ const styles = StyleSheet.create({
     height: 20,
     fontWeight: "600",
     textAlign: "center",
-    color: Color.textWhite,
+    color: Color.systemBackgroundLightPrimary,
     lineHeight: 22,
     letterSpacing: 0,
-    fontSize: FontSize.headlineRegular_size,
+    fontSize: FontSize.defaultBoldBody_size,
     top: 1,
     width: 54,
     position: "absolute",
@@ -510,9 +510,9 @@ const styles = StyleSheet.create({
     color: Color.brandPrimary,
   },
   number: {
-    fontFamily: FontFamily.calloutRegular,
+    fontFamily: FontFamily.bodyRegular14,
     textAlign: "center",
-    color: Color.textWhite,
+    color: Color.systemBackgroundLightPrimary,
   },
   badge: {
     paddingVertical: 0,
@@ -531,7 +531,7 @@ const styles = StyleSheet.create({
   },
   label1: {
     color: Color.textPrimary,
-    fontFamily: FontFamily.calloutRegular,
+    fontFamily: FontFamily.bodyRegular14,
     marginLeft: 8,
   },
   badge1: {
@@ -572,7 +572,7 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     marginLeft: 4,
     textAlign: "center",
-    color: Color.textWhite,
+    color: Color.systemBackgroundLightPrimary,
   },
   name: {
     flexDirection: "row",
@@ -587,7 +587,7 @@ const styles = StyleSheet.create({
   },
   angOnline: {
     color: Color.colorMediumseagreen_100,
-    fontFamily: FontFamily.calloutRegular,
+    fontFamily: FontFamily.bodyRegular14,
     flex: 1,
     textAlign: "center",
   },
@@ -598,7 +598,7 @@ const styles = StyleSheet.create({
     alignSelf: "stretch",
   },
   label6: {
-    fontFamily: FontFamily.calloutRegular,
+    fontFamily: FontFamily.bodyRegular14,
     color: Color.brandPrimary,
     textAlign: "center",
   },
@@ -644,13 +644,13 @@ const styles = StyleSheet.create({
   tinTVn: {
     textAlign: "left",
     color: Color.textPrimary,
-    fontFamily: FontFamily.calloutRegular,
+    fontFamily: FontFamily.bodyRegular14,
   },
   text1: {
     color: Color.colorRoyalblue_200,
     marginTop: 4,
     textAlign: "left",
-    fontFamily: FontFamily.text14SemiBold,
+    fontFamily: FontFamily.title3SemiBold,
     fontWeight: "600",
     letterSpacing: 0,
   },
@@ -673,7 +673,7 @@ const styles = StyleSheet.create({
     marginLeft: 16,
     textAlign: "left",
     color: Color.textPrimary,
-    fontFamily: FontFamily.calloutRegular,
+    fontFamily: FontFamily.bodyRegular14,
     flex: 1,
   },
   arrowRightIcon: {
@@ -684,7 +684,7 @@ const styles = StyleSheet.create({
     height: 48,
     paddingVertical: Padding.p_xs,
     paddingHorizontal: Padding.p_base,
-    backgroundColor: Color.textWhite,
+    backgroundColor: Color.systemBackgroundLightPrimary,
     flexDirection: "row",
     overflow: "hidden",
     width: 375,
@@ -693,7 +693,7 @@ const styles = StyleSheet.create({
   value: {
     textAlign: "right",
     marginLeft: 16,
-    fontFamily: FontFamily.calloutRegular,
+    fontFamily: FontFamily.bodyRegular14,
     color: Color.brandPrimary,
   },
   qunLTinZalo1: {
@@ -702,7 +702,7 @@ const styles = StyleSheet.create({
   text3: {
     color: Color.textPlaceHolder,
     textAlign: "left",
-    fontFamily: FontFamily.calloutRegular,
+    fontFamily: FontFamily.bodyRegular14,
     flex: 1,
   },
   fieldtextArea: {
@@ -712,12 +712,12 @@ const styles = StyleSheet.create({
     paddingVertical: Padding.p_5xs,
     borderRadius: Border.br_9xs,
     borderStyle: "solid",
-    backgroundColor: Color.textWhite,
+    backgroundColor: Color.systemBackgroundLightPrimary,
     width: 343,
   },
   label16: {
     textAlign: "left",
-    fontFamily: FontFamily.text14SemiBold,
+    fontFamily: FontFamily.title3SemiBold,
     fontWeight: "600",
     letterSpacing: 0,
     color: Color.textPrimary,
@@ -736,7 +736,7 @@ const styles = StyleSheet.create({
     color: Color.textBlack,
     textAlign: "left",
     letterSpacing: 0,
-    fontSize: FontSize.caption1Regular_size,
+    fontSize: FontSize.caption1SemiBold_size,
   },
   frameChild: {
     width: 4,
@@ -746,7 +746,7 @@ const styles = StyleSheet.create({
   text4: {
     color: Color.textSecondary,
     textAlign: "left",
-    fontFamily: FontFamily.calloutRegular,
+    fontFamily: FontFamily.bodyRegular14,
     marginLeft: 8,
   },
   frameGroup: {
@@ -759,7 +759,7 @@ const styles = StyleSheet.create({
     textAlign: "left",
     marginTop: 8,
     color: Color.textPrimary,
-    fontFamily: FontFamily.calloutRegular,
+    fontFamily: FontFamily.bodyRegular14,
     alignSelf: "stretch",
   },
   frameParent: {

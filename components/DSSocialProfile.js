@@ -155,15 +155,15 @@ const styles = StyleSheet.create({
     borderColor: Color.gray4D9D9D9,
     borderStyle: "solid",
     overflow: "hidden",
-    backgroundColor: Color.textWhite,
+    backgroundColor: Color.systemBackgroundLightPrimary,
   },
   kLayout: {
     lineHeight: 20,
-    fontSize: FontSize.text14Regular_size,
+    fontSize: FontSize.bodyRegular14_size,
     color: Color.textPrimary,
   },
   textTypo: {
-    fontFamily: FontFamily.text14SemiBold,
+    fontFamily: FontFamily.title3SemiBold,
     fontWeight: "600",
     letterSpacing: 0,
   },
@@ -174,7 +174,7 @@ const styles = StyleSheet.create({
   xemThmTypo: {
     textDecoration: "underline",
     lineHeight: 20,
-    fontSize: FontSize.text14Regular_size,
+    fontSize: FontSize.bodyRegular14_size,
     textAlign: "left",
   },
   avtPosition: {
@@ -197,7 +197,7 @@ const styles = StyleSheet.create({
     height: 32,
   },
   lMinhTr: {
-    fontSize: FontSize.calloutRegular_size,
+    fontSize: FontSize.text16Medium_size,
     lineHeight: 24,
     fontWeight: "500",
     fontFamily: FontFamily.text16Medium,
@@ -217,7 +217,7 @@ const styles = StyleSheet.create({
   psid: {
     display: "flex",
     width: 100,
-    fontFamily: FontFamily.calloutRegular,
+    fontFamily: FontFamily.bodyRegular14,
     textAlign: "left",
     alignItems: "center",
   },
@@ -225,7 +225,7 @@ const styles = StyleSheet.create({
     marginLeft: 12,
     flex: 1,
     lineHeight: 20,
-    fontSize: FontSize.text14Regular_size,
+    fontSize: FontSize.bodyRegular14_size,
     color: Color.textPrimary,
     textAlign: "left",
   },
@@ -235,14 +235,14 @@ const styles = StyleSheet.create({
   },
   fptTelecom: {
     lineHeight: 20,
-    fontSize: FontSize.text14Regular_size,
+    fontSize: FontSize.bodyRegular14_size,
     color: Color.textPrimary,
     textAlign: "left",
     alignSelf: "stretch",
   },
   facebookcomfptTelecom1234: {
     color: Color.brandPrimary,
-    fontFamily: FontFamily.calloutRegular,
+    fontFamily: FontFamily.bodyRegular14,
     alignSelf: "stretch",
     overflow: "hidden",
   },
@@ -262,7 +262,7 @@ const styles = StyleSheet.create({
   },
   k: {
     textAlign: "center",
-    fontFamily: FontFamily.calloutRegular,
+    fontFamily: FontFamily.bodyRegular14,
   },
   avt: {
     height: "100%",
@@ -296,14 +296,14 @@ const styles = StyleSheet.create({
   },
   hoChiMinh: {
     lineHeight: 20,
-    fontSize: FontSize.text14Regular_size,
+    fontSize: FontSize.bodyRegular14_size,
     color: Color.textPrimary,
     textAlign: "left",
   },
   xemThm: {
     color: Color.colorRoyalblue_100,
     marginLeft: 4,
-    fontFamily: FontFamily.text14SemiBold,
+    fontFamily: FontFamily.title3SemiBold,
     fontWeight: "600",
     letterSpacing: 0,
   },
@@ -315,7 +315,7 @@ const styles = StyleSheet.create({
   location: {
     marginLeft: 12,
     lineHeight: 20,
-    fontSize: FontSize.text14Regular_size,
+    fontSize: FontSize.bodyRegular14_size,
     color: Color.textPrimary,
     textAlign: "left",
   },
@@ -333,7 +333,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 0,
     paddingVertical: Padding.p_base,
     alignItems: "center",
-    backgroundColor: Color.textWhite,
+    backgroundColor: Color.systemBackgroundLightPrimary,
   },
 });
 

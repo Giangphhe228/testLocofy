@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Text, StyleSheet, View, Image } from "react-native";
+import Composer1 from "./Composer1";
 import { Color, Border, Padding, FontSize, FontFamily } from "../GlobalStyles";
 
 const COMPOSER = () => {
@@ -118,7 +119,7 @@ const COMPOSER = () => {
                 <Image
                   style={[styles.plusIcon, styles.iconLayout2]}
                   resizeMode="cover"
-                  source={require("../assets/camera1.png")}
+                  source={require("../assets/camera.png")}
                 />
               </View>
               <View style={[styles.icon1, styles.iconLayout1]}>
@@ -148,7 +149,7 @@ const COMPOSER = () => {
               <Image
                 style={[styles.cameraIcon1, styles.iconLayout2]}
                 resizeMode="cover"
-                source={require("../assets/camera2.png")}
+                source={require("../assets/camera1.png")}
               />
               <Image
                 style={[styles.cameraIcon1, styles.iconLayout2]}
@@ -174,18 +175,7 @@ const COMPOSER = () => {
                   source={require("../assets/iconsendplanefill.png")}
                 />
               </View>
-              <View style={[styles.composer3, styles.dngSpaceBlock]}>
-                <View style={styles.nhpTinNhnWrapper}>
-                  <Text style={[styles.niDungTin2, styles.tinContainerLayout]}>
-                    Nội dung tin nhắn 1 dòng
-                  </Text>
-                </View>
-                <Image
-                  style={[styles.emojiIcon, styles.iconLayout2]}
-                  resizeMode="cover"
-                  source={require("../assets/emoji.png")}
-                />
-              </View>
+              <Composer1 messageContent="Nội dung tin nhắn 1 dòng" />
               <View style={[styles.icon1, styles.iconLayout1]}>
                 <Image
                   style={[styles.plusIcon, styles.iconLayout2]}
@@ -214,7 +204,7 @@ const COMPOSER = () => {
                 <Image
                   style={[styles.iconsendPlaneFill, styles.icon20x20Layout]}
                   resizeMode="cover"
-                  source={require("../assets/camera.png")}
+                  source={require("../assets/camera2.png")}
                 />
                 <View style={styles.labelParent}>
                   <Text style={[styles.label, styles.tinContainerLayout]}>
@@ -244,7 +234,7 @@ const COMPOSER = () => {
                 <Image
                   style={[styles.iconsendPlaneFill, styles.icon20x20Layout]}
                   resizeMode="cover"
-                  source={require("../assets/sticker1.png")}
+                  source={require("../assets/sticker.png")}
                 />
                 <View style={styles.labelParent}>
                   <Text style={[styles.label, styles.tinContainerLayout]}>
@@ -259,7 +249,7 @@ const COMPOSER = () => {
                 <Image
                   style={[styles.iconsendPlaneFill, styles.icon20x20Layout]}
                   resizeMode="cover"
-                  source={require("../assets/gif1.png")}
+                  source={require("../assets/gif.png")}
                 />
                 <View style={styles.labelParent}>
                   <Text style={[styles.label, styles.tinContainerLayout]}>
@@ -305,7 +295,7 @@ const COMPOSER = () => {
               <Image
                 style={[styles.cameraIcon1, styles.iconLayout2]}
                 resizeMode="cover"
-                source={require("../assets/camera2.png")}
+                source={require("../assets/camera1.png")}
               />
               <Image
                 style={[styles.cameraIcon1, styles.iconLayout2]}
@@ -331,23 +321,12 @@ const COMPOSER = () => {
                   source={require("../assets/iconsendplanefill.png")}
                 />
               </View>
-              <View style={[styles.composer3, styles.dngSpaceBlock]}>
-                <View style={styles.nhpTinNhnWrapper}>
-                  <Text style={[styles.nhpTinNhn, styles.tinContainerLayout]}>
-                    Nhập tin nhắn
-                  </Text>
-                </View>
-                <Image
-                  style={[styles.emojiIcon, styles.iconLayout2]}
-                  resizeMode="cover"
-                  source={require("../assets/emoji.png")}
-                />
-              </View>
+              <Composer1 messageContent="Nhập tin nhắn" propColor="#666d7c" />
               <View style={[styles.icon1, styles.iconLayout1]}>
                 <Image
                   style={[styles.plusIcon, styles.iconLayout2]}
                   resizeMode="cover"
-                  source={require("../assets/camera1.png")}
+                  source={require("../assets/camera.png")}
                 />
               </View>
               <View style={[styles.icon1, styles.iconLayout1]}>
@@ -382,7 +361,7 @@ const COMPOSER = () => {
                 <Image
                   style={[styles.iconsendPlaneFill, styles.icon20x20Layout]}
                   resizeMode="cover"
-                  source={require("../assets/camera.png")}
+                  source={require("../assets/camera2.png")}
                 />
                 <View style={styles.labelParent}>
                   <Text style={[styles.label, styles.tinContainerLayout]}>
@@ -412,7 +391,7 @@ const COMPOSER = () => {
                 <Image
                   style={[styles.iconsendPlaneFill, styles.icon20x20Layout]}
                   resizeMode="cover"
-                  source={require("../assets/sticker1.png")}
+                  source={require("../assets/sticker.png")}
                 />
                 <View style={styles.labelParent}>
                   <Text style={[styles.label, styles.tinContainerLayout]}>
@@ -427,7 +406,7 @@ const COMPOSER = () => {
                 <Image
                   style={[styles.iconsendPlaneFill, styles.icon20x20Layout]}
                   resizeMode="cover"
-                  source={require("../assets/gif1.png")}
+                  source={require("../assets/gif.png")}
                 />
                 <View style={styles.labelParent}>
                   <Text style={[styles.label, styles.tinContainerLayout]}>
@@ -473,7 +452,7 @@ const COMPOSER = () => {
               <Image
                 style={[styles.cameraIcon1, styles.iconLayout2]}
                 resizeMode="cover"
-                source={require("../assets/camera2.png")}
+                source={require("../assets/camera1.png")}
               />
               <Image
                 style={[styles.cameraIcon1, styles.iconLayout2]}
@@ -521,7 +500,7 @@ const COMPOSER = () => {
                 <Image
                   style={[styles.plusIcon, styles.iconLayout2]}
                   resizeMode="cover"
-                  source={require("../assets/camera1.png")}
+                  source={require("../assets/camera.png")}
                 />
               </View>
               <View style={[styles.icon1, styles.iconLayout1]}>
@@ -763,7 +742,7 @@ const COMPOSER = () => {
               <Image
                 style={[styles.cameraIcon1, styles.iconLayout2]}
                 resizeMode="cover"
-                source={require("../assets/camera2.png")}
+                source={require("../assets/camera1.png")}
               />
               <Image
                 style={[styles.cameraIcon1, styles.iconLayout2]}
@@ -813,7 +792,7 @@ const COMPOSER = () => {
                 <Image
                   style={[styles.plusIcon, styles.iconLayout2]}
                   resizeMode="cover"
-                  source={require("../assets/camera1.png")}
+                  source={require("../assets/camera.png")}
                 />
               </View>
               <View style={[styles.icon12, styles.iconLayout1]}>
@@ -1062,7 +1041,7 @@ const COMPOSER = () => {
               <Image
                 style={[styles.cameraIcon1, styles.iconLayout2]}
                 resizeMode="cover"
-                source={require("../assets/camera2.png")}
+                source={require("../assets/camera1.png")}
               />
               <Image
                 style={[styles.cameraIcon1, styles.iconLayout2]}
@@ -1807,13 +1786,13 @@ Liên kết `}</Text>
             <Image
               style={[styles.iconsetplaceholder, styles.iconLayout2]}
               resizeMode="cover"
-              source={require("../assets/iconsetplaceholder1.png")}
+              source={require("../assets/iconsetplaceholder.png")}
             />
             <Text style={[styles.text9, styles.text9Clr]}>Gửi 2</Text>
             <Image
               style={[styles.iconsetplaceholder1, styles.iconLayout2]}
               resizeMode="cover"
-              source={require("../assets/iconsetplaceholder1.png")}
+              source={require("../assets/iconsetplaceholder.png")}
             />
           </View>
         </View>
@@ -2263,7 +2242,7 @@ const styles = StyleSheet.create({
     borderRadius: Border.br_5xs,
     alignItems: "center",
     flexDirection: "row",
-    backgroundColor: Color.textWhite,
+    backgroundColor: Color.systemBackgroundLightPrimary,
     borderWidth: 1,
   },
   tinContainerLayout: {
@@ -2291,7 +2270,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
   },
   descriptionTypo: {
-    fontSize: FontSize.text14Regular_size,
+    fontSize: FontSize.bodyRegular14_size,
     lineHeight: 20,
   },
   composeSpaceBlock: {
@@ -2330,7 +2309,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: Padding.p_base,
     alignItems: "center",
     flexDirection: "row",
-    backgroundColor: Color.textWhite,
+    backgroundColor: Color.systemBackgroundLightPrimary,
     overflow: "hidden",
   },
   morenoPosition: {
@@ -2351,7 +2330,7 @@ const styles = StyleSheet.create({
   },
   letterPosition1: {
     display: "flex",
-    fontFamily: FontFamily.defaultRegularTitle2,
+    fontFamily: FontFamily.defaultRegularTitle3,
     lineHeight: 28,
     fontSize: FontSize.defaultRegularTitle2_size,
     top: "50%",
@@ -2408,7 +2387,7 @@ const styles = StyleSheet.create({
   },
   letterLayout: {
     lineHeight: 21,
-    fontSize: FontSize.calloutRegular_size,
+    fontSize: FontSize.text16Medium_size,
   },
   keySpaceBlock: {
     marginLeft: 6,
@@ -2451,7 +2430,7 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   chnhBnTypo: {
-    fontFamily: FontFamily.text14SemiBold,
+    fontFamily: FontFamily.title3SemiBold,
     letterSpacing: 0,
     fontWeight: "600",
   },
@@ -2475,9 +2454,9 @@ const styles = StyleSheet.create({
   },
   chpNhTypo: {
     lineHeight: 16,
-    fontSize: FontSize.caption1Regular_size,
+    fontSize: FontSize.caption1SemiBold_size,
     color: Color.textSecondary,
-    fontFamily: FontFamily.calloutRegular,
+    fontFamily: FontFamily.bodyRegular14,
   },
   frameChildLayout2: {
     height: 124,
@@ -2497,8 +2476,8 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   text9Clr: {
-    color: Color.textWhite,
-    fontFamily: FontFamily.calloutRegular,
+    color: Color.systemBackgroundLightPrimary,
+    fontFamily: FontFamily.bodyRegular14,
     letterSpacing: 0,
   },
   frameChildLayout: {
@@ -2518,8 +2497,8 @@ const styles = StyleSheet.create({
   },
   nhpTinNhn: {
     color: Color.textSecondary,
-    fontFamily: FontFamily.calloutRegular,
-    fontSize: FontSize.calloutRegular_size,
+    fontFamily: FontFamily.bodyRegular14,
+    fontSize: FontSize.text16Medium_size,
     letterSpacing: 0,
   },
   nhpTinNhnWrapper: {
@@ -2556,8 +2535,8 @@ const styles = StyleSheet.create({
     color: Color.brandPrimary,
   },
   niDungTinContainer: {
-    fontFamily: FontFamily.calloutRegular,
-    fontSize: FontSize.calloutRegular_size,
+    fontFamily: FontFamily.bodyRegular14,
+    fontSize: FontSize.text16Medium_size,
     letterSpacing: 0,
   },
   property1fill1Dng: {
@@ -2573,8 +2552,8 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   niDungTinContainer1: {
-    fontFamily: FontFamily.calloutRegular,
-    fontSize: FontSize.calloutRegular_size,
+    fontFamily: FontFamily.bodyRegular14,
+    fontSize: FontSize.text16Medium_size,
     letterSpacing: 0,
     flex: 1,
   },
@@ -2640,7 +2619,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     lineHeight: 20,
     color: Color.textPrimary,
-    fontFamily: FontFamily.calloutRegular,
+    fontFamily: FontFamily.bodyRegular14,
     flex: 1,
   },
   helperText: {
@@ -2722,22 +2701,16 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     overflow: "hidden",
   },
-  niDungTin2: {
-    color: Color.textPrimary,
-    fontFamily: FontFamily.calloutRegular,
-    fontSize: FontSize.calloutRegular_size,
-    letterSpacing: 0,
-  },
   composeBar2: {
     width: 375,
   },
   label: {
-    fontSize: FontSize.headlineRegular_size,
+    fontSize: FontSize.defaultBoldBody_size,
     color: Color.textBlack,
-    fontFamily: FontFamily.calloutRegular,
+    fontFamily: FontFamily.bodyRegular14,
   },
   illustration: {
-    backgroundColor: Color.neutral4,
+    backgroundColor: Color.neutral4F0F0F0,
     borderRadius: Border.br_11xs,
     left: "0%",
     bottom: "0%",
@@ -2758,7 +2731,7 @@ const styles = StyleSheet.create({
   },
   actionSheetcomposer: {
     width: 375,
-    backgroundColor: Color.textWhite,
+    backgroundColor: Color.systemBackgroundLightPrimary,
     overflow: "hidden",
   },
   property1filledMoreyes: {
@@ -2790,7 +2763,7 @@ const styles = StyleSheet.create({
       width: 0,
       height: 2,
     },
-    backgroundColor: Color.textWhite,
+    backgroundColor: Color.systemBackgroundLightPrimary,
     position: "absolute",
   },
   letter: {
@@ -3105,7 +3078,7 @@ const styles = StyleSheet.create({
     fontFamily: FontFamily.text16Medium,
     marginLeft: 8,
     color: Color.textBlack,
-    fontSize: FontSize.calloutRegular_size,
+    fontSize: FontSize.text16Medium_size,
     letterSpacing: 0,
   },
   record1: {
@@ -3174,7 +3147,7 @@ const styles = StyleSheet.create({
   },
   property1pausing: {
     top: 95,
-    backgroundColor: Color.textWhite,
+    backgroundColor: Color.systemBackgroundLightPrimary,
   },
   record2: {
     top: 564,
@@ -3186,7 +3159,7 @@ const styles = StyleSheet.create({
   },
   bnCh: {
     color: Color.textPrimary,
-    fontFamily: FontFamily.calloutRegular,
+    fontFamily: FontFamily.bodyRegular14,
   },
   huongnt256: {
     color: Color.textBlack,
@@ -3203,7 +3176,7 @@ const styles = StyleSheet.create({
   },
   bnKhngTh1: {
     color: Color.textBlack,
-    fontFamily: FontFamily.calloutRegular,
+    fontFamily: FontFamily.bodyRegular14,
   },
   tiY: {
     textDecoration: "underline",
@@ -3219,7 +3192,7 @@ const styles = StyleSheet.create({
     color: Color.textBlack,
     marginLeft: 12,
     lineHeight: 20,
-    fontFamily: FontFamily.calloutRegular,
+    fontFamily: FontFamily.bodyRegular14,
     textAlign: "left",
   },
   questionCircleIcon: {
@@ -3236,7 +3209,7 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   trang: {
-    fontFamily: FontFamily.calloutRegular,
+    fontFamily: FontFamily.bodyRegular14,
   },
   trangFptCameraContainer: {
     color: Color.textBlack,
@@ -3261,14 +3234,14 @@ const styles = StyleSheet.create({
   angTrLi: {
     lineHeight: 20,
     color: Color.textPrimary,
-    fontFamily: FontFamily.calloutRegular,
+    fontFamily: FontFamily.bodyRegular14,
     textAlign: "left",
   },
   chnhBn: {
     marginLeft: 2,
     color: Color.textBlack,
     lineHeight: 20,
-    fontSize: FontSize.text14Regular_size,
+    fontSize: FontSize.bodyRegular14_size,
     textAlign: "left",
   },
   angTrLiParent: {
@@ -3398,7 +3371,7 @@ const styles = StyleSheet.create({
     bottom: 262,
     height: 16,
     left: 0,
-    backgroundColor: Color.textWhite,
+    backgroundColor: Color.systemBackgroundLightPrimary,
     position: "absolute",
   },
   homeindicator8: {
@@ -3410,7 +3383,7 @@ const styles = StyleSheet.create({
   },
   text9: {
     lineHeight: 21,
-    fontSize: FontSize.calloutRegular_size,
+    fontSize: FontSize.text16Medium_size,
     marginLeft: 8,
     textAlign: "left",
   },
